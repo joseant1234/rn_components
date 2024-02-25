@@ -12,7 +12,7 @@ export const HeaderTitle = ({ title }: Props) => {
 
   return (
     <View style={{ marginTop: top + 20, marginBottom: 20 }}>
-        <Text style={ styles.title }>{ title }</Text>
+        <Text style={styles.title }>{ title }</Text>
     </View>
   )
 }
